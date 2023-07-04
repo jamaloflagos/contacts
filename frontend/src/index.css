@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+}
+
+body {
+  background: rgba(128,128,128,0.5);
+}
+
+.header {
+  border-bottom: 1px solid black;
+}
+
+.grid {
+  /* display: grid;
+  grid-template-columns: 60% auto;
+  justify-content: space-between; */
+  /* border: 1px solid red; */
+
+  position: relative;
+  margin-top: 20px;
+}
+
+.name {
+  color: goldenrod;
+  font-size: larger;
+}
+
+.number {
+  color: black;
+  font-size: medium;
+}
+
+.mail {
+  color: grey;
+  font-size: small;
+}
+
+button {
+  color: white;
+  background: goldenrod;
+  border: none;
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+
+.contact-col {
+  display: flex;
+  width: 80%;
+  column-gap: 20px;
+  
+  
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+label {
+  font-size: medium;
+}
+
+.contact-box {
+  margin-bottom: 10px;
+  position: relative;
+  width: 60%;
+  background: white;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 5px;
+  box-sizing: content-box;
+  margin-left: 10px;
+}
+
+.delete-btn {
+  display: inline;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  color: black;
+
+}
+
+input {
+  border: none;
+  width: 80%;
+  margin-bottom: 10px;
+  outline: 1px solid goldenrod;
+  background: transparent;
+}
+
+.form {
+  width: 20%;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background: white;
+  padding: 30px 0 30px 20px;
+}
+
+.form button {
+  margin: auto;
+  display: block;
+}
+
+.form input:focus {
+  outline: 1px solid goldenrod;
+}
+
+
+.login, .signup {
+  width: 300px;
+  margin: auto;
+
+  background: white;
+  height: 200px;
+  padding: 30px 0 0 20px;
+}
+
+.login input, .signup input {
+  width: 70%;
+}
+
