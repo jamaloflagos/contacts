@@ -6,7 +6,7 @@ const Signup = () => {
         password: ""
     })
 
-    const {error, isLoading, signup} = useSignup()
+    const {signup} = useSignup()
 
     const getUSerInfo = (e) => {
         const {name, value} = e.target
